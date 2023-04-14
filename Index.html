@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester Grammar School Juniors</title>
+  <link rel="stylesheet" href="css/plugins.css">
+  <!-- <link rel="stylesheet" href="css/coloring.css"> -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+    /* body {
+  background-color: rgba(rgb(121, 121, 121), rgb(107rgb(107, 107, 107)7, 107), blue, 0.3);
+  background: url(images/background/1.jpg) no-repeat top right;
+  background-size: cover;
+  background-attachment: scroll;
+} */
+.section1 {
+  padding: 100px 0 20px 0;
+  background-color: rgb(243, 243, 243);
+}
+.section2 {
+  padding: 100px 0 120px 0;
+}
+.section4 {
+  background: url(images/background/3.jpg) no-repeat top right;
+  background-color: rgba(190, 190, 190, 0.5);
+}
+.section0{
+    padding: 0px 0 0px 0;
+}
+
+
+.navbar-expand-lg{
+  background-color: rgb(56, 56, 56);
+}
+.image-container{
+  position: relative;
+  display: inline-block;
+}
+.image-overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffffdf;
+  padding: 60px;
+  box-sizing: border-box;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.gradient-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.gradient-white {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
+}
+h1 {
+  top: 250px;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 6px 4px 8px rgba(0, 0, 0, 0.285);
+  align-items: center;
+  font-size: 100px;
+  margin: 0;
+  color: #fff;
+  padding: 60px;
+  box-sizing: border-box;
+}
+.card-title{
+  padding-top: 30px;
+}
+.card-img-top{
+  transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+  transform: scale(1.15);
+}
+.text-space{
+  width: 480px;
+  margin: auto;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed-top shadow fix" style="background-color: rgba(0, 0, 0, 0.1);">
+  <div class="container-fluid">
+    <div class="col-md-12 col-xs-12">
+      <!-- <div class="col-md-2 "> <img src="images/logo/1.png" alt=""></div> -->
+      <div class="">
+          <a class="navbar-brand" href="#">Manchaster Grammer Juniors School</a>
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="manu" data-toggle="collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="manu">
+            
+            <ul class="nav navbar-nav">
+              
+              <li><a href="#section0" onclick="openSection('section1')">Home</a></li>
+              <li><a href="#section1" onclick="openSection('section1')">Academic</a></li>
+              <li><a href="#section2" onclick="openSection('section2')">Courses</a></li>
+              <li><a href="#section3" onclick="openSection('section3')">Classes</a></li>
+              <li><a href="#section4" onclick="openSection('section4')">Contact</a></li>
+              <!-- <button class="btn btn-primary"> <span class="glyphicon glyphicon-search"></span>    Search</button> -->
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <section id="section0" class="section0">
+    <div class="">
+    <img class="image-container" src="images/background/1.jpg" width="1920px" height="1080px" alt="">
+    <div class="gradient-overlay"></div>
+  </div>
+    <div class="col-md-12 col-xs-12 z-index-1000 image-overlay">
+          <h1>
+            Manchaster Grammer School
+                      Juniors
+          </h1>
+      </div>
+      </section>
+</div>
+<section id="section1" class="section1">
+  <div class="container">
+      <div class=" text-center  fadeInUp">
+        <h2>Academic</h2>
+        <div class="space-border"></div>
+      </div>
+      <div class=" col-md-4" style="color: #000000;" ;>
+        <ul id="leftnav">
+          <li>
+            <h3 class="heading heading_left_nav">Academic</h3>
+          </li style="color: #000000;" >
+          <li><a href="#section1" style="color: #000000;"><span>Junior School</span></a></li>
+          <li><a href="#section1" style="color: #000000;"><span>Senior</span></a></li>
+          <li><a href="#section1" style="color: #000000;"><span>Teaching Staff</span></a></li>
+          <li><a href="#section1" style="color: #000000;"><span>Results</span></a></li>
+          <li><a href="#section1" style="color: #000000;"><span>The Libraries</span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <img src="images/Background/2.jpg " alt="" width="800px" height="350px">
+          <h2 style="padding-top: 30px;">Junior School</h2>
+        <p> Junior School offers a challenging and creative curriculum to inspire our pupils to become problem-solvers and to take risks from early in their school careers. All our Junior School pupils gain automatic entry to the Senior School.The Junior School curriculum is a creative one, where boys use their initiative and dare to take risks.</p>
+        
+        They receive a rich educational diet, released from the constraints of the National Curriculum. They are well schooled in all of the fundamentals, but bright boys need more than that. Through our skill-based activities, we can broaden the mind and develop natural inquisitiveness.
+        <p>
+        In Years 5 and 6 we have a strong and effective partnership with the Senior School, both in terms of shared facilities and specialist teaching. There is no examination preparation, as Junior School boys have automatic entry into the Senior School.
+        </p>
+        <p>
+        Our options programme (running for half a day each week) offers a variety of activities, ranging from robotics to developing the skills needed to become future business entrepreneurs. In Languages, we want boys to be confident in embarking upon new challenges. Hence we study Spanish in Year 3, French in Year 4, Latin in Year 5 and Italian in Year 6.</p>
+      </div>
+    </div>
+  </section>
+  <!-- second section -->
+  <section id="section2" class="section2">
+    <div class="container-fluid text-center  fadeInUp">
+      <div class="container-fluid ">
+        <h2 class="text-center mb-4">Our Classes</h2>
+        <div class="space-border"></div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="images/Classes/1.jpg" class="card-img-top" alt="Class Image">
+              <div class="card-body">
+                <h5 class="card-title">Computer Class</h5>
+                <p class="card-text text-space">Computing is taught as a discrete subject in the Junior and Lower Schools, with an increased emphasis on computer science as students progress. Students experience a wide variety of application software, online activity and eSafety, and the principles involved in writing code.</p>
+                <!-- <a href="#" class="btn-main">Click More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="images/Classes/2.jpg" class="card-img-top" alt="Class Image">
+              <div class="card-body">
+                <h5 class="card-title">Music Class</h5>
+                <p class="card-text text-space">Whether a boy wishes to join one of the three orchestras, play in a jazz group or the big band, sing in one of the three choirs, jam in a rock band or just strum a ukulele, he will be catered for.</p>
+                <!-- <a href="#" class="btn-main">Click More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="images/Classes/3.jpg" class="card-img-top" alt="Class Image">
+              <div class="card-body">
+                <h5 class="card-title">History</h5>
+                <p class="card-text text-space">We encourage an appreciation of the past, promoting the enjoyment of its rediscovery, and develop the critical skills our boys need to interpret historical sources and foster an appreciation of their cultural heritage.</p>
+                <!-- <a href="#" class="btn-main">Click More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+<section id="section-my-quote" aria-label="section" class="jarallax no-top no-bottom">
+    <div class="v-center">
+        <div class="container">
+            <div class="col-md-12 text-center wow fadeInUp">
+                <h2>Testimonial</h2>
+                <div class="space-border"></div>
+            </div>
+            <div id="testimonial-carousel" class="owl-carousel owl-theme wow fadeInUp">
+                <blockquote class="testimonial-big text-light">
+                  Each has extensive collections of non-fiction (covering the full range of academic disciplines) and fiction books, along with magazines, periodicals and DVDs. In addition, pupils can access the Accesit library catalogue via their Microsoft Surface devices, to renew and reserve library books.
+                    <img src="images/people/1.jpg" alt=""/>
+                    <span class="name"></span>
+                </blockquote>
+                <blockquote class="testimonial-big text-light">
+                  The ethos of the School is to encourage pupils to aim high and develop their individual passions. Careers education builds upon this to give pupils the best set of skills, knowledge and experience to allow them to thrive in their future careers.
+                    <img src="images/people/2.jpg" alt="" />
+                    <span class="name">Jhon</span>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="de-gradient-edge-bottom"></div>
+</section>
+  <section class="gradient-overlay section4" id="section4">
+    <div class="container">
+      <div class="z-index-1000">
+        <div class="row">
+            <div class=" text-center  fadeInUp">
+                <h2>Contact Us</h2>
+                <div class="space-border"></div>
+            </div>
+            <div class="col-lg-12 offset-lg-4">
+                <div class="contact_form_wrapper">
+                    <form name="contactForm" id="contact_form" class="form-border" method="post" action="java.js#">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="field-set">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="field-set">
+                                <textarea name="message" id="message" class=" form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div id='submit' class="mt10">
+                                <!-- <input type='submit' id='send_message' value='Send Message' class="btn-main"> -->
+                                <button type='submit' id='send_message' class="btn-main" > Submit </button>
+                            </div>
+
+                            <div id="success_message" class='success'>
+                                
+                            </div>
+                            <div id="error_message" class='error'>
+                                Fill The Form to Contact Us !
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+  </section>
+  <footer class="navbar navbar-expand-lg  shadow">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-inline">
+            <li><a href="#" class="text-white">Services</a></li>
+            <li><a href="#" class="text-white">Events</a></li>
+            <li><a href="#" class="text-white">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-right">
+          <p class="text-white">&copy; 2023 Manchester Grammar School Juniors. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="js/app.js"></script>
+<script src="js/designesia.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script>
+  function openSection(sectionId) {
+    var sections = document.getElementsByTagName("section");
+    for (var i = 0; i < sections.length; i++) {
+      sections[i].classList.remove("active");
+    }
+    var section = document.getElementById(sectionId);
+    section.classList.add("active");
+  }
+</script>
+
+</html>
